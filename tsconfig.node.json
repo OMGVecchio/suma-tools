@@ -3,7 +3,13 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
-  "include": ["vite.config.ts", "configs/**/*.ts", "scripts/**/*.ts", "utils/**/*.ts"]
+  "include": [
+    "vite.config.ts",
+    "configs/**/*.ts",
+    "scripts/**/*.ts",
+    "utils/**/*.ts",
+    "packages/AutoI18n/**/*.ts"
+  ]
 }

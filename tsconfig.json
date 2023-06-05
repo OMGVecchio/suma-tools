@@ -14,12 +14,16 @@
     "noEmit": true,
     "paths": {
       "@/*": ["./packages/*"],
+      "ExpiringLocalStorage": ["./packages/ExpiringLocalStorage/src/index.ts"],
+      "ExpiringLocalStorage/*": ["./packages/ExpiringLocalStorage/src/*"],
     }
   },
   "include": [
     "packages/**/*.ts",
     "packages/**/*.d.ts",
     "packages/**/*.tsx",
+    "examples/**/*.ts"
   ],
+  "exclude": ["packages/AutoI18n/**/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

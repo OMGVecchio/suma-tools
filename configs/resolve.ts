@@ -9,4 +9,8 @@ export const alias: AliasOptions = [
     find: '@',
     replacement: __dir('../packages'),
   },
+  {
+    find: 'ExpiringLocalStorage',
+    replacement: __dir('../packages/ExpiringLocalStorage/src'),
+  },
 ]

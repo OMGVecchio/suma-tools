@@ -1,0 +1,14 @@
+{
+  "name": "@suma-tools/auto-i18n",
+  "version": "0.0.0-alpha.0",
+  "description": "support to translate automatically with several free translation platform",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["automatic i18n", "free translation"],
+  "author": "vecchio",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "@suma-tools:registry": "https://registry.npmjs.org/"
+  }
+}

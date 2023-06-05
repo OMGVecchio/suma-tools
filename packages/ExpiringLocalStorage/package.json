@@ -1,0 +1,14 @@
+{
+  "name": "@suma-tools/expiring-localstorage",
+  "version": "0.0.0-alpha.0",
+  "description": "html5 localstorage with expiring setting",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["expiring localstorage"],
+  "author": "vecchio",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "@suma-tools:registry": "https://registry.npmjs.org/"
+  }
+}
